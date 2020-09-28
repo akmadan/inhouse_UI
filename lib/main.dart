@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:i_scanner/models/user.dart';
 import 'package:i_scanner/screens/home/pages/dashboard.dart';
+import 'package:i_scanner/screens/home/pages/profile.dart';
 // import 'package:i_scanner/screens/home/pages/home_page.dart';
 import 'package:i_scanner/screens/wrapper.dart';
 import 'package:i_scanner/services/auth.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.dark
         ),
         debugShowCheckedModeBanner: false,
-        home: Dashboard(),
+        home: Profile(),                     //Wrapper
       ),
     );
   }
