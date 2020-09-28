@@ -28,7 +28,7 @@ class _RegisterState extends State<Register> {
     return loading
         ? Loading()
         : Scaffold(
-            //backgroundColor: Colors.grey[200],
+            
             appBar: AppBar(
               elevation: 0.0,
               title: Text('Sign up', style: GoogleFonts.poppins()),
